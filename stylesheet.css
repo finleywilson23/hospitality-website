@@ -1,0 +1,398 @@
+body {
+    background-color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+footer {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#main{
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* dark mode */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.login{
+  background-color: #433c3c;
+  color: white;
+  padding: 0.5em;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 0.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: -1px 3px 8px 0px rgb(0 0 0 / 27%), 0 14px 20px 0 rgb(0 0 0 / 18%);
+}
+
+
+.login:hover {
+    opacity: 0.8;
+}
+ul{
+  list-style-type: none;
+}
+.ul_no_dot{
+  list-style-type: none;
+}
+/* dropdown */
+/* .dropdown {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none; /* Hide the dropdown by default */
+ /*   position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown li {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropbtn_settings:hover + .dropdown, .dropdown:hover {
+  display: block; Show the dropdown on hover
+}
+#drawingArea {
+    width: 100%;
+    height: 33vh;
+    background-color: #3b3b3b;
+    overflow: hidden;
+    position: relative;
+    background-image: url('photos/image 1.png'), url('photos/image 3.png'), url('photos/image 4.png');
+    background-size: 100px 100px;
+    background-position: center top, center 170px, center 270px;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;}
+main {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ego {
+    display: flex;
+    align-items: center;
+}
+.ego-image {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ego-image img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.ego-text {
+    padding-left: 20px;
+}
+
+.ego-text h1 {
+    font-size: 120px;
+    margin: 0;
+    align-self: flex-end;
+}
+.why {
+    display: flex;
+    align-items: center;
+}
+.why-image {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.why-image img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+.why-text {
+    padding-left: 20px;
+}
+
+.why-text h3{
+    font-size: 60px;
+    margin: 0;
+    align-self: flex-end;
+}
+.why-text p{
+    font-size: 40px;
+    margin: 0;
+    align-self: flex-end;
+}
+.why-text-right{
+    display: flex;
+    justify-content: flex-end;
+    float :left;
+}
+
+.why-text-right p {
+    font-size: 40px;
+    margin: 0;
+    float :left;
+}
+.why-text-right h3{
+        font-size: 60px;
+        margin: 0;
+        align-self: flex-end;
+        float:left;
+}
+.why-image-left {
+    float: right;
+    margin-right: 20px;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 10px;
+}
+.why-image-big {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.why-image-big img{
+
+    margin-right: 20px;
+    max-width: 2000px;
+    width: 100%;
+    border-radius: 10px;
+}
+.why-text-left{
+    display: flex;
+    justify-content: flex-end;
+    float :left;
+}
+.why-text-left p{
+    font-size: 40px;
+    margin: 0;
+    float :right;
+
+}
+
+.why-text-left h3{
+        font-size: 60px;
+        margin: 0;
+        align-self: flex-end;
+        float:right;
+}
+#img-logo {
+    width: 60px;
+    height: auto;
+}
+.yes-text{
+    padding-left: 20px;
+    font-size: 40px;
+    margin: 0;
+    align-self: flex-end;
+}
+.yes-text p{
+    font-size: 20px;
+    margin: 0;
+    align-self: flex-end;
+}
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol li {
+    margin-bottom: 20px;
+}
+ */
+
+/* Add media query for responsiveness if needed */
+/* @media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+} */
+/* for floor plan styling */
+/*
+:root {
+  --numDays: 5;
+  --numHours: 10;
+  --timeHeight: 60px;
+  --calBgColor: #fff1f8;
+  --eventBorderColor: #f2d3d8;
+  --eventColor1: #ffd6d1;
+  --eventColor2: #fafaa3;
+  --eventColor3: #e2f8ff;
+  --eventColor4: #d1ffe6;
+}
+
+.calendar {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto 1fr;
+  margin: 2rem;
+}
+
+.timeline {
+  display: grid;
+  grid-template-rows: repeat(var(--numHours), var(--timeHeight));
+}
+
+.days {
+  display: grid;
+  grid-column: 2;
+  gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.events {
+  display: grid;
+  grid-template-rows: repeat(var(--numHours), var(--timeHeight));
+  border-radius: 5px;
+  background: var(--calBgColor);
+}
+
+/* Place on Timeline*/
+/*.start-10 {
+  grid-row-start: 2;
+}
+
+.start-12 {
+  grid-row-start: 4;
+}
+
+.start-1 {
+  grid-row-start: 5;
+}
+
+.start-2 {
+  grid-row-start: 6;
+}
+
+.end-12 {
+  grid-row-end: 4;
+}
+
+.end-1 {
+  grid-row-end: 5;
+}
+
+.end-3 {
+  grid-row-end: 7;
+}
+
+.end-4 {
+  grid-row-end: 8;
+}
+
+.end-5 {
+  grid-row-end: 9;
+}
+
+/* Event*/
+
+/*.title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.event {
+  border: 1px solid var(--eventBorderColor);
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  background: white;
+}
+
+.space,
+.date {
+  height: 60px
+}
+*/
+/* Global  Etc
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.corp-fi {
+  background: var(--eventColor1);
+}
+
+.ent-law {
+  background: var(--eventColor2);
+}
+
+.writing {
+  background: var(--eventColor3);
+}
+
+.securities {
+  background: var(--eventColor4);
+}
+
+.date {
+  display: flex;
+  gap: 1em;
+}
+
+.date-num {
+  font-size: 3rem;
+  font-weight: 600;
+  display: inline;
+}
+
+.date-day {
+  display: inline;
+  font-size: 3rem;
+  font-weight: 100;
+}*/
+/* .view {
+    margin :auto;
+    width:600px;
+}
+.wrapper {
+    position: relative;
+    overflow: auto;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+.sticky-col {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;   
+}
+.name_col{
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    left: 100px;
+}
+.day_col{
+    width: 100px;
+    min-width: none;
+    max-width: 100px;
+    left: 100px;
+}
+ */

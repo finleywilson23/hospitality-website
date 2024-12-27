@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio|Finley birkett</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="regform.css">
+    <script src="regfrmscript.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <section class="top">
+            <nav>
+                <div id="logo" class="left">
+                    <img id="img-logo" src="C:\Users\Win11\Desktop\web 1\.vscode\.vscode\exam\logo.png" alt="logo">
+                    <li class="menu-item"><a href="home.html"></a></li>
+                </div>                      
+                <div id="Sidebar" class="sidebar" >
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>   
+                        <ul class ="ul_no_dot"> 
+                            <li class="menu-item"><a href="home.html">home</a></li>
+                            <li class="menu-item"><a href="about.html">about</a></li>
+                            <li class="menu-item"><a href="contact.html">sign up</a></li>
+                            <li class="dropdown">
+                                <button class="dropbtn">staffing</button>
+                                <div class = "dropbtn">
+                                    <a href="contact.html">contacts</a></li>
+                                    <a href="rotas.html">rotas</a></li>
+                                    <a href="floor_plan.html">floor plan</a></li>
+                                </div>
+                            </ul>
+                </div>
+                    <div id="main">
+                        <button id="setting_logo" onclick="openNav()">☰ Menu</button>
+                    </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <form id="regForm" action="/action_page.php" method="post">
+            <h1>registration</h1>
+        
+            <div class="tab">Name:
+                <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
+                <p><input placeholder="Last name..." oninput="this.className = ''" name="lname"></p>
+                 <p><input  placeholder="Businesses name" oninput="this.className=''" name="bname"></p>
+            </div>
+            <div class="tab">Contact info:
+                <p><input  name="email" placeholder="Businesses email" type="email"oninput="this.className=''"></p> 
+                <p><input  name="phone" placeholder="Businesses phone Number" type="tel"oninput="this.className=''"></p>
+                <p><input  name="post_code" placeholder="Businesses post code" type=""oninput="this.className=''"></p>
+            </div>
+            <div class="tab">Login Info:
+                <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
+                <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
+
+            </div>
+            <div style="overflow: auto;">
+                <div style="overflow: right;">
+                    <button type="button" id="prevBtn"onclick="nextPrev(-1)">Previous</button>
+                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top:40px ;">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+            </div>
+        </form>
+        <ul>
+            <li class="login"><a href="home.html">sign in</a></li>
+        </ul>
+    </main>
+</body>
+
+</html>

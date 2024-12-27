@@ -1,0 +1,19 @@
+*{box-sizing: border-box;}
+
+.slideshow_container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+img {vertical-align: middle;}
+.myslides{
+    display: none;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
